@@ -1,4 +1,4 @@
-import { neogma } from "../../server";
+import { neogma } from "../server";
 
 import { ModelFactory, NeogmaInstance } from "neogma";
 
@@ -51,4 +51,4 @@ export const Jobs = ModelFactory<JobsPropertiesI, JobsRelatedNodesI>(
         }
     },
     neogma,
-)
+);

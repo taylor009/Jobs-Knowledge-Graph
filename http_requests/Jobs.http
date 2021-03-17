@@ -1,0 +1,17 @@
+GET http://localhost:4000/api/jobs
+Accept: application/json
+
+###
+POST http://localhost:4000/api/jobs/create
+Content-Type: application/json
+
+{
+  "company": "Facebook",
+  "title": "Software Engineer E5",
+  "location": "Menlo Park",
+  "salary": "170,000",
+  "seniority": "Mid-Senior",
+  "topApplicant": "True"
+}
+
+###
